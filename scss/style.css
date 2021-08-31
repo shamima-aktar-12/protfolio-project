@@ -1,0 +1,196 @@
+/*--Nav Section Starts--*/
+.navbar {
+  background: #000;
+}
+
+.navbar .navbar-brand {
+  text-decoration: underline;
+}
+
+.navbar .nav-item {
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.navbar .nav-link {
+  font-size: 12px;
+  display: unset !important;
+  text-transform: uppercase;
+  color: #fff !important;
+  padding: 0 0 5px 0 !important;
+}
+
+.navbar .active-home {
+  border-bottom: 2px solid #FFDF00;
+}
+
+.navbar .nav-link:hover {
+  border-bottom: 2px solid #FFDF00;
+}
+
+/*--Nav Section Ends--*/
+/*--Home Section Starts--*/
+#home {
+  position: relative;
+  background: url("../img/header.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+
+#home .dark-overlay {
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  min-height: 500px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#home .btn {
+  border-radius: 20px;
+  border: 1px solid #FFDF00;
+  width: 150px;
+}
+
+#home span {
+  color: #FFDF00;
+}
+
+/*--Home Section Ends--*/
+/*--About Section Starts--*/
+#about h2 {
+  color: #FFDF00;
+}
+
+/*--About Section Ends--*/
+/*--Services Section Starts--*/
+#services {
+  position: relative;
+  background: url("../img/services.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+#services h2 {
+  color: #FFDF00;
+}
+
+#services .dark-overlay {
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  min-height: 500px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#services .fab {
+  font-size: 50px;
+}
+
+@media (max-width: 500px) {
+  #services {
+    min-height: 600px;
+  }
+}
+
+/*--Services Section Ends--*/
+/*--Latest Work Section Starts--*/
+#latest-work h2 {
+  color: #FFDF00;
+}
+
+/*--Latest Work  Ends--*/
+/*--Contact Section Starts--*/
+#contact {
+  position: relative;
+  background: url("../img/contact.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+#contact .dark-overlay {
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  min-height: 600px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#contact h2 {
+  color: #FFDF00;
+}
+
+#contact .btn {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .nav-link {
+    padding-left: 0 !important;
+  }
+}
+
+/*--Contact Section Ends--*/
+/*--Footer section Starts--*/
+#footer {
+  background: #000;
+}
+
+#footer .footer-links a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+#footer .fab {
+  font-size: 30px;
+  margin: 10px;
+  color: #fff;
+}
+
+#footer .fab:hover {
+  color: #FFDF00;
+}
+
+#footer .letter input[type="text"] {
+  border: .2rem solid #fff;
+  outline: none;
+  background: none;
+  height: 2rem;
+  width: 16rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+#footer .letter input[type="submit"] {
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  border: 2px solid #FFDF00;
+  color: #fff;
+  background: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  -webkit-text-decoration: capitalize;
+  text-decoration: capitalize;
+  letter-spacing: .2rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  height: 3rem;
+  width: 12rem;
+  margin: 1rem 0;
+}
+
+/*--Footer section Ends--*/
+/*# sourceMappingURL=style.css.map */
